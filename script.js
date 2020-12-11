@@ -34,7 +34,7 @@ $("#navbar-menu a").on('click',function(event){
 
         $('html,body').animate({
             scrollTop:$(hash).offset().top
-        },2000,function(){
+        },1000,function(){
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash=hash;
         });
