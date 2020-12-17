@@ -8,14 +8,14 @@ $(document).ready(function(){
 
         if($(document).scrollTop()> 50){
 
-            $(".navbar").css("background-color","black");
-            $(".nav-link.active").css("background-color","white");
+            $(".navbar").css("background-color","blue");
+            $(".nav-link.active").css("background-color","blue");
             $(".nav-link").css("background-color","transparent")
 
         }
         else{
             $(".navbar").css("background-color","transparent");
-            $(".nav-link.active").css("background-color","green");
+            $(".nav-link.active").css("background-color","blue");
 
         }
     })
