@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $(".nav-link.active").css("background-color","green");
+    $(".nav-link.active").css("background-color","blue");
     //$(".nav-pills.nav-link.active, .nav-pills.show>.nav-link").css("background-color","green")
     $(window).scroll(function(){
 

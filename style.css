@@ -1,3 +1,4 @@
+/* background: linear-gradient(to right top, green 50%, blue 50%); */
 /* 
 General for fonts and colors  */
  /* body {
@@ -13,11 +14,17 @@ h1 {
 h2, h3 {
   font-family: 'Dancing Script', cursive;
 }
+
 a {
   text-decoration: none;
 }
+
 .text-center {
   text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 /* 
 .container {
@@ -36,6 +43,7 @@ a {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-bottom: 50px; 
+  border-radius: 0px 0px 40px 40px;
   
   
   /* background-position: top center; */
@@ -48,7 +56,7 @@ a {
     color:black;
     font-weight: 600;
     padding-top: 7%;
-    margin-left: 50%;
+    margin-left: 42%;
     margin-right: 7%;
    
 }
@@ -74,7 +82,7 @@ a {
   border-radius: 1px;
   margin-bottom: 50px; 
   box-shadow: rgba(50, 50, 50, 0.2) -50px 60px 50px -12px inset, rgba(50, 50, 50, 0.2) 20px -60px 36px -18px inset; 
-  border-radius: 40px 40px 40px 40px;
+  border-radius: 0px 40px 40px 0px;
   
 }
 
@@ -84,60 +92,16 @@ a {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   background-size: 100% 100%;
-  /* border-radius: 40px 0px 0px 40px; */
-  /* background-size: 100% 100%; */
-  /* height: 30%; */
+  border-radius: 0px 40px 40px 0px;
+}
+
+.text {
+ padding-left: 16%;
 }
 
 .card-product1 div {
-  /* margin-right: 50px; */
-  text-align: center;
-  /* margin: 100px 100px 0px 0px; */
-  
+  text-align: center;  
 }
-   
-.picture5 {
-  height:50%;
-  width: 100%; 
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background:url(./images/lotus.jpg);
-  background-size: cover;
-  
-}
-    
-.intro-text5 {
-  border-radius:6px;
-  text-shadow: 0px 2px 10px rgba(0,0,0,0.6);
-    /* color:blueviolet; */
-    font-weight: 600;
-    padding-top: 2%;
-    margin-left: 10%;
-    margin-right: 3%;
-    font-family: 'Cormorant Upright', serif;
-}
-
-      
-.picture6 {
-  height:50%;
-  width: 100%; 
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background:url(./images/bougies.jpg);
-  background-size: cover;
-  
-}
-      
-.intro-text6 {
-  border-radius:6px;
-  text-shadow: 0px 2px 10px rgba(0,0,0,0.6);
-    /* color:blueviolet; */
-    font-weight: 600;
-    padding-top: 2%;
-    margin-left: 10%;
-    margin-right: 3%;
-    font-family: 'Cormorant Upright', serif;
-}
-
-
 
 
 .card-product {
@@ -145,36 +109,25 @@ a {
 	align-items: center;
 	background-color:white;
   padding-top: 0px;
-  /* border-radius: 40px 40px 40px 40px; */
+  border-radius: 40px 0px 0px 40px;
   margin-bottom: 50px; 
- 
-    /* margin-top: 50px;   */
-    box-shadow: rgba(50, 50, 50, 0.5) 50px 50px 50px -12px inset, rgba(50, 50, 50, 0.3) 20px -50px 36px -18px inset; 
- 
+  box-shadow: rgba(50, 50, 50, 0.5) 50px 50px 50px -12px inset, rgba(50, 50, 50, 0.3) 20px -50px 36px -18px inset; 
 }
 
 .card-product img {
-  width:350px;
+  width:100%;
   height:600px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-  /* background-size: 100% 100%; */
-  /* height: 30%; */
+  border-radius: 40px 0px 0px 40px;
+  
 }
 
 .card-product div {
-  margin-left: 50px;
+  margin-left: 20px;
   text-align: center;
 }
 
 .card-product h2 {
   /* color: blueviolet; */
-}
-
-.imag {
-  margin-left: 100px; 
 }
 
 
@@ -185,23 +138,24 @@ a {
   padding-top: 0px;
   margin-bottom: 50px; 
   padding-bottom: 0px;
-  
+  border-radius: 0px 40px 40px 00px;
   box-shadow: rgba(50, 50, 50, 0.2) -50px 60px 50px -12px inset, rgba(50, 50, 50, 0.2) 20px -60px 36px -18px inset; 
 }
 
 .card-product3 img {
-  width:800px;
+  width:300%;
   height:420px;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
- 
+  border-radius: 0px 40px 40px 0px;
 }
 
 .card-product3 div {
   margin-right: 0px;
   text-align: center;
+}
+.text3 {
+  padding-left: 26%;
 }
 
 
@@ -211,12 +165,12 @@ a {
 	background-color:white;
   padding-top: 0px;
   margin-bottom: 50px; 
-    /* margin-top: 50px;   */
-    box-shadow: rgba(50, 50, 50, 0.5) 50px 50px 50px -12px inset, rgba(50, 50, 50, 0.3) 20px -50px 36px -18px inset; 
+  border-radius: 40px 0px 0px 40px;
+  box-shadow: rgba(50, 50, 50, 0.5) 50px 50px 50px -12px inset, rgba(50, 50, 50, 0.3) 20px -50px 36px -18px inset; 
 }
 
 .card-product4 img {
-  width:700px;
+  width:100%;
   height:600px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -224,6 +178,7 @@ a {
   border-bottom-left-radius: 25px;
   /* background-size: 100% 100%; */
   /* height: 30%; */
+  border-radius: 40px 0px 0px 40px;
 }
 
 .card-product4 div {
@@ -245,22 +200,24 @@ a {
   padding-bottom: 25px;
   margin-bottom: 50px; 
   padding-bottom: 0px;
+  border-radius: 0px 40px 40px 0px;
   box-shadow: rgba(50, 50, 50, 0.2) -50px 60px 50px -12px inset, rgba(50, 50, 50, 0.2) 20px -60px 36px -18px inset; 
 }
 
 .card-product5 img {
-  width:800px;
+  width:300%;
   height:500px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
- 
+  border-radius: 0px 40px 40px 0px;
 }
 
 .card-product5 div {
-  margin-right: 50px;
   text-align: center;
 }
-
+.text5 {
+  padding-left: 24%;
+}
 
 .card-trip {
   border-radius: 40px 40px 40px 40px;
@@ -270,10 +227,12 @@ a {
 }
 
 .card-trip img {
-  border-radius: 40px 40px 0px 0px;
-  width:60%;
-  height:600px;
+  border-radius: 200px;
+  width:70%;
+  height:500px;
   object-fit: cover;
+  margin-left: 15%;
+  
 }
 
 .card-trip-footer {
@@ -283,6 +242,7 @@ a {
   padding: 24px;
   position: relative;
   text-align: center;
+  
 }
 
 /* .card-trip-footer img {
@@ -305,34 +265,45 @@ a {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 50px; 
-    /* margin-top: 50px;   */
-    box-shadow: rgba(50, 50, 50, 0.5) -50px 50px 50px -12px inset, rgba(50, 50, 50, 0.3) 20px -50px 36px -18px inset; 
+  border-radius: 0px 40px 40px 0px;
+  box-shadow: rgba(50, 50, 50, 0.5) -50px 50px 50px -12px inset, rgba(50, 50, 50, 0.3) 20px -50px 36px -18px inset; 
  
 }
 .card-product7 img {
-  width:790px;
+  width:130%;
   height:460px;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-radius: 0px 40px 40px 0px;
   /* background-size: 100% 100%; */
   /* height: 30%; */
 }
 
 .card-product7 div {
-  margin-right: 50px;
+  margin-right: 4%;
 }
 
 .card-product h2 {
   /* color: blueviolet; */
 }
 
-.imag7 {
-  /* margin-right: 200px; */
-  
+.text7 {
+  padding-left: 5%;
 }
 
+
+.headings {
+  text-align: center;
+}
+.btn-success {
+ margin-left: 50%;
+   /* color: #999999;
+    border: 1px solid #999999;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-weight: lighter;
+    opacity: 0.6; */
+}
 
 
 @media (max-width: 960px) {
