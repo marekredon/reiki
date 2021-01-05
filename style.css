@@ -77,9 +77,16 @@ html {
   /* object-fit: cover; */
 /* } */
 
+
+
+
 .card-product1 {
   display:flex;
-  align-items: center;
+
+  flex: 1 1 100px;
+  align-items:center;
+  flex-wrap: wrap;
+
   background-color:white;
   border-radius: 1px;
   margin-bottom: 50px; 
@@ -87,12 +94,12 @@ html {
   border-radius: 0px 40px 40px 0px;
   /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
   /* https://developer.mozilla.org/fr/docs/Web/CSS/linear-gradient() */
-  
 }
 
 .card-product1 img {
-  
-  width:800px;
+  width:100%; 
+  /* flex: 1.1 1 auto; il avait mis dans imag1*/
+  /* width:800px;  */
   height:400px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -101,8 +108,12 @@ html {
 }
 
 .text {
- padding-left: 2%;
- /* box-sizing: border-box; */
+ /* padding-left: 2%;  ce qu'il y avait avant */
+ /* box-sizing: border-box; ça, c'était en vert avant*/
+
+ flex: 1 1 auto;
+ margin: 0 auto;
+ width: 40%;
 }
 
 .card-product1 div {
