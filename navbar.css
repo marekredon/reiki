@@ -146,27 +146,42 @@
   }
   
 
-
-$rayHeight: 800px;
-$teal1: #AFE0E4;
-$teal2: #C0E6E9;
-$teal3: #84CDD4;
-$teal4: #7EC9D1;
-$teal5: #97D6DC;
-$teal6: #AEDEE2;
-$teal7: #96D3D8;
-$teal8: #9CD7DD;
-$teal9: #7ECBD3;
-$teal10: #AFE0E4;
-$teal11: #B6DFE3;
-$teal12: #84CDD4;
-
+  $rayHeight: 800px;
+  $teal1: #AFE0E4;
+  $teal2: #C0E6E9;
+  $teal3: #84CDD4;
+  $teal4: #7EC9D1;
+  $teal5: #97D6DC;
+  $teal6: #AEDEE2;
+  $teal7: #96D3D8;
+  $teal8: #9CD7DD;
+  $teal9: #7ECBD3;
+  $teal10: #AFE0E4;
+  $teal11: #B6DFE3;
+  $teal12: #84CDD4;
+  .img{
+    width: 500px;
+    height: 335px;
+    position: relative;
+    left: 500px;
+  }
+  .container-ligth {
+    position: absolute;
+    top: 0;
+    z-index:800;
+    width: 56vw;
+    height: 100%;
+    background: linear-gradient(to bottom, #96C7CC 0%, #C3DDD8 30%, #C3DDD8 100%);
+    opacity: 0.2;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.futura-sciences.com%2Fplanete%2Fphotos%2Foceanographie-oceans-film-hommage-nature-631%2Focean-photo-poisson-lune-ce-geant-oceans-3288%2F&psig=AOvVaw3zoDoTWI-5LcVPhMXnBtg7&ust=1606584244578000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiQkreRo-0CFQAAAAAdAAAAABA");
+    overflow: hidden;
+  }
   .gradientContainer {
-    // border: 1px solid #FF9900;
+    /* border: 1px solid #FF9900; */
     width: 100%;
     height: 100%;
     overflow:hidden;
-  //  background: linear-gradient(to bottom, #C3E5E5, #0D3F53);
+    /* background: linear-gradient(to bottom, #C3E5E5, #0D3F53); */
     background: transparent;
     position: absolute;
     z-index: 200;
@@ -182,7 +197,7 @@ $teal12: #84CDD4;
   }
   .gradient {
     margin-top: -100px;
-    // border: 1px solid red;
+    /* border: 1px solid red; */
     width: 2500px;
     height: 700px;
     transform: translateX(-50px) rotate(20deg);
