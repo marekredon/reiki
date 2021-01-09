@@ -68,7 +68,23 @@
   }
 
 
+  .transparent {
+    height: 100px;
+    width: 100px;
+    position:relative;
+    top:-120px;
+    left: 300px;
+    background-color: green;
+    /* background-color: transparent; */
+    z-index: 3;
+    /* background-size: 50px 100px; */ 
+  } 
+  
+  .transparent:hover { 
+    transform:scale(2);
 
+  }  
+   /* .mondivtransparent:hover .madivphoto */
 
   
 

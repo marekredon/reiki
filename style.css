@@ -47,10 +47,9 @@ html {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   /* border-radius: 0px 0px 40px 40px; */
-
-  /* z-index: -1;
   /* background-position: top center; */
 }
+
 
 .intro-text1 {
   flex: 1 1 100px;
@@ -62,14 +61,14 @@ html {
   color:black;
   font-weight: 600;
   padding-top: 7%;
-  margin-left: 41%;
-  margin-right: 6%;  
+   margin-left: 41%; 
+   margin-right: 6%;   
     
 }
 
 /* .picture1:hover{
     transform: scale(1.1, 1.2);
-    transition: 0.3s;
+    transition: 1.3s;
 } */
 
 /* .picture2 { */
@@ -90,7 +89,6 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  
   background-size: 100% 100%;
    /* background-size: cover; */
 }
@@ -106,7 +104,7 @@ html {
   border-radius: 1px;
   box-shadow: rgba(50, 50, 50, 0.2) -50px 60px 50px -12px inset, rgba(50, 50, 50, 0.2) 20px -60px 36px -18px inset; 
   /* border-radius: 0px 40px 40px 0px; */
-  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);  */
+  /* background: linear-gradient(90deg, #C3E5E5 , #0D3F53);  */
   
 }
 
@@ -208,8 +206,8 @@ html {
   display:flex;
   flex: 1 1 10px;
   align-items:center;
-  flex-wrap: wrap;
-
+  flex-wrap:wrap-reverse;
+  
   align-items: center;
   border-radius: 1px;
   padding-top: 0px;
@@ -232,6 +230,7 @@ html {
   flex: 600px;
   padding-left: 5px;
   padding-right: 5px;
+  
 
 }
 
@@ -304,7 +303,7 @@ html {
   display:flex;
   flex: 1 1 10px;
   align-items:center;
-  flex-wrap: wrap;
+  flex-wrap:wrap-reverse;
   
   align-items: center;
   border-radius: 1px;
@@ -393,6 +392,7 @@ html {
   background-size: contain;
   background-color: #F9E9DC;
 }
+
 
 .card-product7 {
   display:flex;
@@ -502,6 +502,15 @@ html {
    font-weight: normal; 
  } */
 
+
+ /* .fas fa-hand-holding-heart {
+  display:flex;
+  flex: 1 1 10px;
+  align-items:center;
+  flex-wrap: wrap;
+  /* flex: 700px; */
+/* }  */
+
 @media all and (max-width: 1800px) {
   .container-marek {
     width: auto;
@@ -523,5 +532,14 @@ html {
 @media all and (max-width: 700px) {
   .card-product3 img, .card-product4 img, .card-product5 img, .card-product1 img  {
     display: none;
+  }
+}
+
+@media all and (max-width: 700px) {
+.intro-text1 {
+ /* color: #996B46;  */
+margin-left: 20%; 
+margin-right: 2%;   
+background: #FAEFF5;
   }
 }
