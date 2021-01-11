@@ -82,13 +82,10 @@
   
   .transparent:hover { 
     transform:scale(2);
-
   }  
-   /* .mondivtransparent:hover .madivphoto */
+   
 
-  
-
-  @keyframes bubblesIn {
+   @keyframes bubblesIn {
     0% {
       opacity: 0;
     }
@@ -161,6 +158,15 @@
     }
   }
   
+  .img-species-show img{
+    height: 100%;
+    transform: scale(1);
+    transition: all 1.5s ease-in-out 0.1s;
+  }
+  .img-species-show img:hover{
+    transform: scale(1.05);
+    transition: all 1.5s ease-in-out 0.1s;
+  }
 
   $rayHeight: 800px;
   $teal1: #AFE0E4;
@@ -274,4 +280,3 @@
       transform: translateY(10px) scale(.9);
     }
   }
-  
