@@ -11,10 +11,20 @@ h1 {
   font-weight: 400;
   font-family: 'Cormorant Upright', serif; 
 }
-h2, h3 {
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h3 {
   font-family: 'Dancing Script', cursive;
 }
 
+h4 {
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
 a {
   text-decoration: none;
 }
@@ -59,7 +69,7 @@ html {
   font-family: 'Cormorant Upright', serif;
 	border-radius:6px;
   color:black;
-  font-weight: 600;
+  
   padding-top: 7%;
    margin-left: 41%; 
    margin-right: 6%;   
