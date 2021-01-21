@@ -224,9 +224,7 @@ img {
   text-align: center;
 }
 
-.card-product h2 {
-  /* color: blueviolet; */
-}
+
 
 .parallax2 {
   /* The image used */
@@ -325,9 +323,6 @@ img {
   text-align: center;
 }
 
-.card-product4 h2 {
-  /* color: blueviolet; */
-}
 
 .parallax4 {
   /* The image used */
@@ -494,7 +489,7 @@ img {
     padding: 15px 25px;
     border-radius: 50px;
     font-weight: lighter; 
-    opacity: 0.6; 
+    opacity: 0.6; */
 }
 
 
