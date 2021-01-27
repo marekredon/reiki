@@ -5,6 +5,11 @@
     background: rgba(255, 255, 255, 0.8);
 }
 
+/* #statusbar-display {
+  display: none;
+} */
+/* #statuspanel[type="overLink"] { display: none !important } */
+
 .m-left {
     float: left;
     font-weight: 700;
