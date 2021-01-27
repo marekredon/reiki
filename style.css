@@ -8,7 +8,7 @@ General for fonts and colors  */
 
 h1 {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: 'Cormorant Upright', serif; 
 }
 h2 {
@@ -19,6 +19,7 @@ h2 {
 
 h3 {
   font-family: 'Dancing Script', cursive;
+  font-weight: 500;
 }
 
 h4 {
