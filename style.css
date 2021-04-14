@@ -41,9 +41,8 @@ a {
   text-align: center;
 }
 
-html, body {
+html {
   scroll-behavior: smooth;
-  margin: 0;
 }
 
 /* On englobe notre site dans un container et on le centre */
@@ -51,7 +50,6 @@ html, body {
   width: 100%;
   margin: auto auto;
 }  
-
 
 .picture1 {
   /* position:fixed; */
