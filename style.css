@@ -34,8 +34,9 @@ a {
   text-align: center;
 }
 
-html {
+html, body {
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 /* On englobe notre site dans un container et on le centre */
@@ -72,9 +73,8 @@ html {
   color:black;
   
   padding-top: 7%;
-   margin-left: 41%; 
-   margin-right: 6%;   
-    
+  margin-left: 41%; 
+  margin-right: 6%;     
 }
 
 /* .picture1:hover{
@@ -435,7 +435,6 @@ img {
   background-color: #F9E9DC;
 }
 
-
 .card-product7 {
   display:flex;
   flex: 1 1 10px;
@@ -460,9 +459,9 @@ img {
   /* height: 30%; */
 }
 
+
 .card-product7 div {
   margin-right: 1%;
-  
 }
 
 .card-product h2 {
@@ -477,7 +476,6 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 
 .headings {
   text-align: center;
