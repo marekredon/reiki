@@ -3,6 +3,7 @@
     line-height: 64px; 
     position: fixed;
     background: rgba(255, 255, 255, 0.8);
+    z-index:10
 }
 /* cacher le bla bla en bas à gauche de l'écran lors d'un hover ----> pour mon futur site/jeu */
 /* #statusbar-display {
@@ -12,19 +13,18 @@
 
 .m-left {
     float: left;
-    font-weight: 700;
     height: 64px;
-    font-size: 20px;
+    font-size: 1vw;
     font-family: 'Cormorant Upright', serif; 
     font-weight: 700;    
 }
 
 .m-right {
     float: right;
-    font-weight: 600;
     letter-spacing: 1px;
     font-weight: 700;
-    font-family: 'Dancing Script', cursive;      
+    font-family: 'Dancing Script', cursive; 
+    font-size: 1vw;    
 }
 
 .logo {
@@ -45,10 +45,14 @@
 }
 
 .m-link:hover {
-   padding-bottom: 3px;
-   border-color: black;
-   text-decoration: none;
-   color: black; 
+  padding-bottom: 3px;
+  border-color: rgb(180, 8, 180);
+  text-decoration: none;
+  color: black; 
+   /* font-style: italic; */
+  font-size: 1.2vw;
+  color: rgb(180, 8, 180);
+  font-weight: bold
 }
 
 .m-link i {

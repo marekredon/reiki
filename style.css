@@ -1,20 +1,22 @@
 /* background: linear-gradient(to right top, green 50%, blue 50%); */
 /* 
 General for fonts and colors  */
- /* body {
+/* body {
   /* margin: 48px;  */
   /* text-align: center; */
  /* }  */ 
+html {
+	font-size: 100%;
+}
 
 h1 {
-  font-size: 16px;
   font-weight: 500;
   font-family: 'Cormorant Upright', serif; 
 }
 
 h2 {
   font-family: 'Dancing Script', cursive;
-  font-size: 16px;
+  font-size: 8vw;
   font-weight: 700;
 }
 
@@ -45,20 +47,17 @@ html {
   margin: auto auto;
 }  
 
-.picture1 {
-  /* position:fixed; */
-  /* left: 0%;
-  top: 0%;   */
-  flex: 1 1 100px;
-  align-items:center;
-  flex-wrap: wrap;
-  height:100vh;
-  /* box-shadow: rgba(217, 85, 230, 0.3) 0px 19px 38px, rgba(217, 85, 230, 0.3) 0px 15px 12px; */
-  background:url(./images/mandala.jpg);
-  background-size: 100% 100%;
+
+.card-trip-footer1 {
+text-align: center;
+}
+
+.picture1 img{
+  width: 25%;
+  object-fit: contain;
+  position:relative;
+  left: 37.5%;    
   background-repeat: no-repeat;
-  /* border-radius: 0px 0px 40px 40px; */
-  /* background-position: top center; */
 }
 
 
@@ -66,14 +65,12 @@ html {
   flex: 1 1 100px;
   align-items:center;
   flex-wrap: wrap;
-   
   font-family: 'Cormorant Upright', serif;
 	border-radius:6px;
   color:black;
-  
-  padding-top: 7%;
-  margin-left: 41%; 
-  margin-right: 6%;     
+  padding-top: 1%;
+  margin-left: 25%; 
+  /* margin-right: 21%;      */
 }
 
 /* .picture1:hover{
@@ -101,7 +98,7 @@ html {
   background-repeat: no-repeat;
   background-size: 100% 100%;
    /* background-size: cover; */
-   opacity: 0.3;
+  opacity: 0.3;
 }
 
 
@@ -127,14 +124,15 @@ html {
   border-radius: 0px 40px 40px 0px;
 }
 
+
 .text {
  /* padding-left: 2%;  ce qu'il y avait avant */
- /* box-sizing: border-box; ça, c'était en vert avant*/
- flex: 400px;
- margin: 0 auto;
- width: 500px;
- margin-top: 20px;
- margin-bottom: 20px;
+  /* box-sizing: border-box; ça, c'était en vert avant*/
+  flex: 400px;
+  margin: 0 auto;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card-product1 div {
@@ -159,7 +157,7 @@ html {
   flex: 1 1 10px;
   align-items:center;
   flex-wrap: wrap;
- 
+
 	align-items: center;
 	background-color:white;
   padding-top: 0px;
@@ -172,8 +170,8 @@ html {
   flex: 600px;
   padding-left: 5px;
   padding-right: 5px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .card-product img {
@@ -183,10 +181,23 @@ html {
   flex-wrap: wrap;
 
   flex: 500px;
-  width:400px;
-  height:700px;
+  width: 200px;
+  height: auto;
   border-radius: 40px 0px 0px 40px;
 }
+
+/* .card-trip-footer1 {
+  text-align: center;
+  }
+  
+  .picture1 img{
+    width: 25%;
+    object-fit: contain;
+    position:relative;
+    left: 37.5%; 
+    top: 1px;     
+    background-repeat: no-repeat;
+  } */
 
 /* .imag {
   display:flex;
@@ -289,7 +300,6 @@ img {
   flex: 1 1 10px;
   align-items:center;
   flex-wrap: wrap;
-
 	align-items: center;
 	background-color:white;
   padding-top: 0px;
@@ -326,7 +336,7 @@ img {
 
 .parallax4 {
   /* The image used */
-  background-image: url("/images/plage.jpg");
+  background-image: url("/images/mandalabon.jpg");
   /* Set a specific height */
   min-height: 250px; 
   /* Create the parallax scrolling effect */
@@ -556,19 +566,46 @@ flex-wrap: wrap;
 @media all and (max-width: 1800px) {
   .container-marek {
     width: auto;
+    font-size: 100%;
+  }
+  iframe {
+    width: 840px;
+    height: 600px;
+  }
+  .card-product4 img {
+    /* on peut garder width 100 % : l'image rétrécit si l'ecran devient + petit qu'elle */
+    width:100%;
+    height:300px;
   }
 }
 
-@media all and (max-width: 800px) {
-   .card-product img  {
-    display: none;
+@media all and (max-width: 1200px) {
+  iframe {
+    width: 600px;
+    height: 500px;
+  }
+  .card-product4 img {
+    /* on peut garder width 100 % : l'image rétrécit si l'ecran devient + petit qu'elle */
+    width:100%;
+    height:250px;
+  }
+}
+
+@media all and (max-width: 860px) {
+  .card-product img  {
+    height:200px;
+    width:120px;  
+  }
+  iframe {
+    width: 400px;
+    height: 300px;
   }
 }
 
 @media all and (max-width: 720px) {
   .card-product7 img {
   display: none;
- }
+  }
 }
 
 @media all and (max-width: 700px) {
@@ -583,5 +620,9 @@ flex-wrap: wrap;
 margin-left: 20%; 
 margin-right: 2%;   
 background: #FAEFF5;
+  }
+  iframe {
+    width: 300px;
+    height: 200px;
   }
 }
