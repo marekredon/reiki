@@ -47,6 +47,14 @@ html {
   margin: auto auto;
 }  
 
+.container-marek1 {
+  width: 100%;
+  margin: auto auto;
+  /* border-radius: 40px 0px 0px 40px; */
+  box-shadow: rgba(212, 35, 153, 0.2) -100px 100px 100px -12px inset, rgba(173, 6, 118, 0.2) 60px -60px 36px -18px inset;
+
+}
+
 
 .card-trip-footer1 {
 text-align: center;
@@ -417,6 +425,16 @@ img {
   position: relative;
   text-align: center;
   margin-top: 20px;
+}
+
+.card-trip-footer2 {
+  background-color: rgb(243, 231, 242);
+  display:flex;
+	align-items: flex-end;
+	justify-content: space-between;
+  padding-left: 2rem;
+  position: relative;
+  text-align: center;
 }
 
 /* .card-trip-footer img {
