@@ -3,20 +3,13 @@ $(document).ready(function(){
     $(".nav-link.active").css("background-color","blue");
     //$(".nav-pills.nav-link.active, .nav-pills.show>.nav-link").css("background-color","green")
     $(window).scroll(function(){
-
-
-
-        if($(document).scrollTop()> 50){
-
+        if ($(document).scrollTop()> 50){
             $(".navbar").css("background-color","blue");
             $(".nav-link.active").css("background-color","blue");
             $(".nav-link").css("background-color","transparent")
-
-        }
-        else{
+        } else {
             $(".navbar").css("background-color","transparent");
             $(".nav-link.active").css("background-color","blue");
-
         }
     })
 })
@@ -39,8 +32,4 @@ $("#navbar-menu a").on('click',function(event){
             window.location.hash=hash;
         });
     }
-}
-
-
-
-);
+});
