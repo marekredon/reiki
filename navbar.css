@@ -70,14 +70,13 @@
     }
   }
   
-  .menu{
+.menu{
     animation-duration: 2500ms;
     animation-name: moveRight;
     width: 100%;
-  }
+}
 
-
-  .transparent {
+.transparent {
     height: 100px;
     width: 100px;
     position:relative;
@@ -87,8 +86,13 @@
     /* background-color: transparent; */
     z-index: 3;
     /* background-size: 50px 100px; */ 
-  } 
+} 
   
-  .transparent:hover { 
+.transparent:hover { 
     transform:scale(2);
-  }
+}
+
+
+@media all and (max-width: 1200px) {
+
+}
