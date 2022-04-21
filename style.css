@@ -112,8 +112,6 @@ text-align: center;
   display:flex;
   flex: 1 1 10px;
   align-items:center;
-  flex-wrap: wrap;
-
   background-color:transparent;
   border-radius: 1px;
   box-shadow: rgba(214, 120, 183, 0.2) -50px 60px 50px -12px inset, rgba(214, 120, 183, 0.2) 20px -60px 36px -18px inset; 
@@ -670,6 +668,10 @@ background: #FAEFF5;
     height:200px;
     width:120px;  
   }
+  /* .card-product1 img {
+    width:100%;
+    height:80px;
+  } */
 }
 
 @media all and (max-width: 400px) {
