@@ -10,7 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+li {
+  text-align: left;
+}
+
+.debut h1, .debut1 h1 {
   font-weight: 500;
   font-family: 'Cormorant Upright', serif; 
   font-size: 2.5vw;
@@ -38,8 +42,10 @@ a {
 }
 
 .debut{
-  font-size: 20px;
   padding-top: 70px;
+  display: inline-block;
+}
+.debut1{
   display: inline-block;
 }
 
@@ -73,15 +79,14 @@ text-align: center;
   background-repeat: no-repeat;
 }
 
-
 .intro-text1 {
-  flex: 1 1 100px;
+  flex: 1 1 50px;
   align-items:center;
   flex-wrap: wrap;
   font-family: 'Cormorant Upright', serif;
 	border-radius:6px;
   color:black;
-  padding-top: 1%;
+  padding-top: -1%;
 }
 
 /* .picture1:hover{
@@ -188,11 +193,11 @@ text-align: center;
   /* flex: 1 1 10px; */
   align-items:center;
   /* flex-wrap: wrap;
-
   flex: 500px; */
-  width: 250px;
+  width: 300px;
   height: auto;
   border-radius: 40px 0px 0px 40px;
+  /* margin-top: -200px; pour monter le photo de Céline*/
 }
 
 /* .card-trip-footer1 {
@@ -474,7 +479,7 @@ img {
   /* margin-bottom: 50px;  */
   /* border-radius: 0px 40px 40px 0px; */
   box-shadow: rgba(214, 120, 183, 0.2) -50px 60px 50px -12px inset, rgba(214, 120, 183, 0.2) 20px -60px 36px -18px inset;
- 
+
 }
 .card-product7 img {
   width:700px;
@@ -510,8 +515,8 @@ justify-content: center;
   margin-top: 20px; 
 }
 .btn-success {
- margin-left: 50%;
-   /* color: #999999;
+  margin-left: 50%;
+  /* color: #999999;
     border: 1px solid #999999;
     padding: 15px 25px;
     border-radius: 50px;
@@ -618,15 +623,16 @@ justify-content: center;
   p{
     font-size: 2.3vw;
   }
-  h1{
-    font-size: 2.7vw;
+  .debut h1, .debut1 h1 {
+    font-size: 3vw;
   }
 }
 
 @media all and (max-width: 860px) {
   .card-product img  {
     height:300px;
-    width:180px;  
+    width:180px; 
+    
   }
   .card-product4 img, .card-product1 img {
     /* on peut garder width 100 % : l'image rétrécit si l'ecran devient + petit qu'elle */
@@ -637,8 +643,8 @@ justify-content: center;
     width: 400px;
     height: 300px;
   }
-  h1{
-    font-size:10px;
+  .debut h1, .debut1 h1{
+    font-size:4vw;
   }
   p{
     font-size:3vw;
@@ -650,8 +656,8 @@ justify-content: center;
   .card-product7 img {
   display: none;
   }
-  h1{
-    font-size:10px;
+  .debut h1, .debut1 h1{
+    font-size:4.1vw;
   }
   .card-product4 img, .card-product1 img {
     /* on peut garder width 100 % : l'image rétrécit si l'ecran devient + petit qu'elle */
@@ -695,10 +701,10 @@ justify-content: center;
     width: 300px;
     height: 200px;
   }
-  h1{
-    font-size:10px;
+  .debut h1, .debut1 h1{
+    font-size:5vw;
   }
-  .card-product img  {
+  .card-product img {
     height:200px;
     width:120px;  
   }
@@ -722,5 +728,8 @@ justify-content: center;
   }
   p{
     font-size:5vw;
+  }
+  .debut h1, .debut1 h1{
+    font-size:6vw;
   }
 }

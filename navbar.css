@@ -97,6 +97,9 @@
   .m-right {
     font-size: 1.6vw;
   }
+  .m-link:hover {
+    font-size: 1.8vw;
+  }
 }
 
 @media all and (max-width: 600px) {
