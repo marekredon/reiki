@@ -13,26 +13,34 @@ html {
 h1 {
   font-weight: 500;
   font-family: 'Cormorant Upright', serif; 
-  
+  font-size: 2.5vw;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 500;
+  font-size: 2.3vw;
+}
+
+h3 {
+  font-size: 2.1vw;
+  font-family: 'Dancing Script', cursive;
 }
 
 p {
   font-family: 'Dancing Script', cursive;
-  font-size: 8vw;
+  font-size: 2vw;
   font-weight: 700;
 }
 
-h3 {
-  font-family: 'Dancing Script', cursive;
-  font-weight: 500;
-}
-
-h4 {
-  font-size: 30px;
-  font-family: 'Dancing Script', cursive;
-}
 a {
   text-decoration: none;
+}
+
+.debut{
+  font-size: 20px;
+  padding-top: 70px;
+  display: inline-block;
 }
 
 .text-center {
@@ -43,14 +51,14 @@ a {
 .container-marek {
   width: 100%;
   margin: auto auto;
+  text-align: center;
 }  
 
 .container-marek1 {
   width: 100%;
   margin: auto auto;
   /* border-radius: 40px 0px 0px 40px; */
-  box-shadow: rgba(212, 35, 153, 0.2) -100px 100px 100px -12px inset, rgba(173, 6, 118, 0.2) 60px -60px 36px -18px inset;
-
+  box-shadow: rgba(212, 35, 153, 0.2) -60px 70px 35px -12px inset, rgba(212, 35, 153, 0.2) 60px -70px 30px -12px inset;
 }
 
 
@@ -62,7 +70,6 @@ text-align: center;
   width: 25%;
   object-fit: contain;
   position:relative;
-  left: 37.5%;    
   background-repeat: no-repeat;
 }
 
@@ -75,8 +82,6 @@ text-align: center;
 	border-radius:6px;
   color:black;
   padding-top: 1%;
-  margin-left: 25%; 
-  /* margin-right: 21%;      */
 }
 
 /* .picture1:hover{
@@ -166,7 +171,7 @@ text-align: center;
 	background-color:white;
   padding-top: 0px;
   /* border-radius: 40px 0px 0px 40px; */
-  box-shadow: rgba(214, 120, 183, 0.2) -50px 60px 50px -12px inset, rgba(214, 120, 183, 0.2) 20px -60px 36px -18px inset;
+  box-shadow: rgba(214, 120, 183, 0.2) 41px 47px 35px -12px inset, rgba(214, 120, 183, 0.5) 35px -50px 50px -27px inset;
   overflow: hidden; 
 }
 
@@ -307,7 +312,7 @@ img {
 	background-color:white;
   padding-top: 0px;
   /* border-radius: 40px 0px 0px 40px; */
-  box-shadow: rgba(214, 120, 183, 0.2) -50px 60px 50px -12px inset, rgba(214, 120, 183, 0.2) 20px -60px 36px -18px inset;
+  box-shadow: rgba(214, 120, 183, 0.2) 50px 60px 51px -12px inset, rgba(214, 120, 183, 0.2) 20px -60px 36px -18px inset;
 }
 
 .pipo1 {
@@ -496,8 +501,8 @@ img {
 
 .lieu {
 display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
+justify-content: center;
+/* flex-wrap: wrap; */
 }
 
 .headings {
@@ -582,7 +587,6 @@ flex-wrap: wrap;
     width:100%;
     height:300px;
   }
-
 }
 
 @media all and (max-width: 1800px) {
@@ -591,8 +595,8 @@ flex-wrap: wrap;
     font-size: 100%;
   }
   iframe {
-    width: 840px;
-    height: 600px;
+    width: 600px;
+    height: 400px;
   }
   .card-product4 img, .card-product1 img {
     /* on peut garder width 100 % : l'image rétrécit si l'ecran devient + petit qu'elle */
@@ -603,16 +607,19 @@ flex-wrap: wrap;
 
 @media all and (max-width: 1200px) {
   iframe {
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
   }
   .card-product4 img, .card-product1 img {
     /* on peut garder width 100 % : l'image rétrécit si l'ecran devient + petit qu'elle */
     width:100%;
     height:200px;
   }
+  p{
+    font-size: 2.3vw;
+  }
   h1{
-    font-size:10px;
+    font-size: 2.7vw;
   }
 }
 
@@ -633,6 +640,9 @@ flex-wrap: wrap;
   h1{
     font-size:10px;
   }
+  p{
+    font-size:3vw;
+  }
 
 }
 
@@ -648,23 +658,38 @@ flex-wrap: wrap;
     width:100%;
     height:100px;
   }
+  .intro-text1 {
+    margin-left: 10%; 
+  }
+  p{
+    font-size:4vw;
+  }
 }
 
-@media all and (max-width: 700px) {
+/* @media all and (max-width: 700px) {
   .card-product3 img, .card-product5 img, .square {
     display: none;
   }
   h1{
     font-size:10px;
   }
-}
+  .intro-text1 {
+    margin-left: 10%; 
+  }
+  p{
+    font-size:2.8vw;
+  }
+} */
 
 @media all and (max-width: 700px) {
+  .card-product3 img, .card-product5 img, .square {
+    display: none;
+  }
 .intro-text1 {
  /* color: #996B46;  */
-margin-left: 20%; 
-margin-right: 2%;   
-background: #FAEFF5;
+  margin-left: 20%; 
+  margin-right: 2%;   
+  background: #FAEFF5;
   }
   iframe {
     width: 300px;
@@ -677,6 +702,12 @@ background: #FAEFF5;
     height:200px;
     width:120px;  
   }
+  .intro-text1 {
+    margin-left: 10%; 
+  }
+  p{
+    font-size:4vw;
+  }
 }
 
 @media all and (max-width: 400px) {
@@ -688,5 +719,8 @@ background: #FAEFF5;
     /* on peut garder width 100 % : l'image rétrécit si l'ecran devient + petit qu'elle */
     width:100%;
     height:60px;
+  }
+  p{
+    font-size:5vw;
   }
 }

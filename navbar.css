@@ -24,7 +24,7 @@
     letter-spacing: 1px;
     font-weight: 700;
     font-family: 'Dancing Script', cursive; 
-    font-size: 1vw;    
+    font-size: 1.2vw;    
 }
 
 .logo {
@@ -45,18 +45,18 @@
 }
 
 .m-link:hover {
-  padding-bottom: 3px;
+  padding-bottom: 5px;
   border-color: rgb(180, 8, 180);
   text-decoration: none;
   color: black; 
    /* font-style: italic; */
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   color: rgb(180, 8, 180);
   font-weight: bold
 }
 
 .m-link i {
-  font-size: 1.7em;
+  font-size: 1.4em;
   margin-right: 3px;
 }
 
@@ -94,5 +94,19 @@
 
 
 @media all and (max-width: 1200px) {
+  .m-right {
+    font-size: 1.6vw;
+  }
+}
 
+@media all and (max-width: 600px) {
+  .m-right {
+    font-size: 1.4vw;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .m-right {
+    font-size: 1.3vw;
+  }
 }
