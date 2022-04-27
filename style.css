@@ -44,6 +44,7 @@ a {
 .debut{
   padding-top: 70px;
   display: inline-block;
+  
 }
 .debut1{
   display: inline-block;
@@ -77,6 +78,9 @@ text-align: center;
   object-fit: contain;
   position:relative;
   background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+  
 }
 
 .intro-text1 {
