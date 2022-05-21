@@ -104,12 +104,12 @@
 
 @media all and (max-width: 600px) {
   .m-right {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
 }
 
 @media all and (max-width: 400px) {
   .m-right {
-    font-size: 1.3vw;
+    font-size: 1.4vw;
   }
 }

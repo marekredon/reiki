@@ -161,7 +161,7 @@ text-align: center;
   /* The image used */
   background-image: url("/images/usui.png");
   /* Set a specific height */
-  min-height: 250px; 
+  height: 250px; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -304,7 +304,7 @@ img {
   /* The image used */
   background-image: url("/images/mainreiki.jpg");
   /* Set a specific height */
-  min-height: 250px; 
+  height: 250px; 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -695,7 +695,7 @@ justify-content: center;
   .card-product3 img, .card-product5 img, .square {
     display: none;
   }
-.intro-text1 {
+  .intro-text1 {
  /* color: #996B46;  */
   margin-left: 20%; 
   margin-right: 2%;   
@@ -718,6 +718,9 @@ justify-content: center;
   p{
     font-size:4vw;
   }
+  .parallax, .parallax1, .parallax3 {
+    height: 200px;
+  }
 }
 
 @media all and (max-width: 400px) {
@@ -736,4 +739,8 @@ justify-content: center;
   .debut h1, .debut1 h1{
     font-size:6vw;
   }
+  .parallax, .parallax1, .parallax3 {
+    height: 150px;
+  }
 }
+
