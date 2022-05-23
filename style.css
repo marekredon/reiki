@@ -723,12 +723,15 @@ justify-content: center;
   }
 }
 
-@media all and (max-width: 400px) {
-  .card-product img  {
-    height:100px;
-    width:60px;  
+@media all and (max-width: 500px) {
+  .card-product img, .card-product4 img  {
+    display: none; 
   }
-  .card-product4 img, .card-product1 img {
+}
+
+
+@media all and (max-width: 400px) {
+  .card-product1 img {
     /* on peut garder width 100 % : l'image rétrécit si l'ecran devient + petit qu'elle */
     width:100%;
     height:60px;
