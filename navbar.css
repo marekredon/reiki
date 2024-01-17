@@ -3,7 +3,8 @@
     line-height: 64px; 
     position: fixed;
     background: rgba(255, 255, 255, 0.8);
-    z-index:10
+    z-index:10;
+    text-align:center;
 }
 /* cacher le bla bla en bas à gauche de l'écran lors d'un hover ----> pour mon futur site/jeu */
 /* #statusbar-display {
@@ -12,18 +13,18 @@
 /* #statuspanel[type="overLink"] { display: none !important } */
 
 .m-left {
-    float: left;
-    height: 64px;
+    /* float: right; */
+    height: 48px;
     font-size: 1vw;
     font-family: 'Cormorant Upright', serif; 
     font-weight: 700;  
 }
 
 .m-right {
-    float: right;
+    /* float: center; */
     letter-spacing: 1px;
     font-weight: 700;
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Cormorant Upright', serif; 
     font-size: 1.2vw;    
 }
 
@@ -37,7 +38,7 @@
 .m-link {
     text-decoration: none;
     color: black;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 0;
     margin: 10 10px;
     transition: all 0.3s ease-in-out;
@@ -61,7 +62,7 @@
 }
 
 
-@keyframes moveRight {
+/* @keyframes moveRight {
     from {
       transform: translateX(-100%);
     }
@@ -69,12 +70,14 @@
       transform: translateX(0px);
     }
   }
-  
-.menu{
+   */
+
+
+/* .menu{
     animation-duration: 2500ms;
     animation-name: moveRight;
     width: 100%;
-}
+} */
 
 .transparent {
     height: 100px;
