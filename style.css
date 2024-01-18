@@ -14,11 +14,20 @@ li {
   text-align: left;
 }
 
-.debut h1, .debut1 h1 {
+.debut h1 {
   font-weight: 500;
   font-family: 'Cormorant Upright', serif; 
   font-size: 2vw;
   margin: -60px;
+  padding: 10px;  
+}
+
+.debut1 h1 {
+  font-weight: 500;
+  font-family: 'Cormorant Upright', serif; 
+  font-size: 2vw;
+  margin-top: -1px;
+  margin-left: 140px;
 }
 
 h2 {
